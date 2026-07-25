@@ -1,8 +1,13 @@
 aid: crossoverhealth
 name: Crossoverhealth
-description: 'Crossoverhealth is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Crossover Health is an advanced primary care provider that delivers
+  integrated, team-based healthcare for employers and their members through its proprietary
+  Care Platform. Its services span primary care, physical medicine, mental health,
+  health coaching, care navigation, and occupational medicine, delivered through on-site
+  and near-site health centers and a 50-state virtual provider network. Crossover Health
+  is a portfolio company of Norwest Venture Partners and is tracked in the API Evangelist
+  network as a company profile; no public developer API, developer portal, or machine-readable
+  specification has been found on its web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/crossoverhealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://crossoverhealth.com/wp-content/uploads/2024/04/Crossover-healthcare-service.webp
 tags:
 - Company
-- Unknown
+- Healthcare
+- Primary Care
+- Digital Health
+- Telehealth
+- Employer Health
+- Care Navigation
+- Occupational Medicine
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://crossoverhealth.com
+- type: Blog
+  url: https://crossoverhealth.com/blog/
+- type: Support
+  url: https://crossoverhealth.com/contact/
+- type: Login
+  url: https://care.crossoverhealth.com
+- type: PrivacyPolicy
+  url: https://crossoverhealth.com/privacy-policy/
+- type: TermsOfService
+  url: https://crossoverhealth.com/legal/
+- type: DomainSecurity
+  url: security/crossoverhealth-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
